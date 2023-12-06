@@ -1,0 +1,68 @@
+.sosmed a{
+    color: #F97316;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.sosmed i{
+    font-weight: bold;
+}
+
+#VM.label{
+    margin-top: 0%;
+}
+
+.VMcard, .info-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#VM.label, #info.label {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: default;
+    margin-bottom: 5%;
+}
+
+.VMbody, .info-content{
+    width: 80%;
+    padding: 10px;
+    margin: 0 0 30px 0;
+    background: #F5F5F4;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 2px solid #F97316;
+}
+
+.VMbody p, .info-content p{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.2;
+}
+
+.VMbody p.VMtitle{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #VM.label{
+        margin-top: 80%;
+    }
+}

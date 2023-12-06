@@ -1,0 +1,126 @@
+.News-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.News-container .card {
+    padding: 15px 15px 10px 15px;
+    width: 80%;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+}
+
+.News-container .card-imgBox {
+    margin: 10px;
+}
+
+.News-container .card-imgBox img {
+    width: 100%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.News-container .card-title h2 {
+    font-size: 2.2rem;
+    margin: 25px 5px;
+    text-align: center;
+}
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: #E1E1DF;
+}
+
+.News-container .card-text p {
+    margin: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify;
+}
+
+
+
+.info{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back a{
+    text-decoration: none;
+    color: #F97316;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+}
+
+.info p{
+    padding-left: 10px;
+    display: inline;
+    font-size: 1rem;
+    align-self: center;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .News-container{
+        margin-top: 30%;
+    }
+
+    .News-container .card-imgBox {
+        margin: 0px;
+    }
+
+    .News-container .card {
+        width: 100%;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-border-radius: none;
+        -moz-border-radius: none;
+        border-radius: none;
+    }
+    
+    .News-container .card-imgBox img {
+        width: 100%;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    .News-container .card-title h2 {
+        font-size: 2rem;
+        margin: 30px;
+    }
+
+    .News-container .card-text p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+
+    .News-container{
+        margin-top: 20%;
+    }
+    
+}

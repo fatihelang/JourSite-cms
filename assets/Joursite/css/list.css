@@ -1,0 +1,196 @@
+.list-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+
+.list-box {
+    position: relative;
+    min-width: 350px;
+}
+
+.list-box .list {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 30px 0 0 10px;
+    transition: 0.5s;
+    overflow: hidden;
+    background: #F5F5F4;
+    width: 1000px;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-box .list .list-imgBox {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 10px;
+}
+
+.list-box .list .list-imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.list-box .list .list-content {
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    margin-left: 10px;
+}
+
+.list-box .list .list-content .list-date {
+    font-size: 18px;
+    color: #F97316;
+}
+
+.list-box .list .list-content .list-title {
+    text-align: left;
+    font-size: 28px;
+    color: #000;
+}
+
+.list-box .list .list-content a {
+    text-align: center;
+    width: 150px;
+    background: #F97316;
+    border-radius: 10px;
+    padding: 8px 8px;
+    color: #F5F5F4;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 74%;
+    transition: 0.3s;
+}
+
+.list-box .list .list-content a:hover {
+    background: #F5F5F4;
+    color: #F97316;
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .list-container{
+        margin-top: 10%;
+    }
+
+    .list-box {
+        position: relative;
+        min-width: 150px;
+    }
+
+    .list-box .list {
+        display: inline-block;
+        width: 300px;
+        box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+        -webkit-border-radius: 5%;
+        -moz-border-radius: 5%;
+        border-radius: 5%;
+        margin: 30px;
+    }
+
+    .list-box .list .list-imgBox {
+        position: relative;
+        width: 280px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 0px 0px;
+    }
+    
+    .list-box .list .list-imgBox img {
+        position: absolute;
+        margin: 0 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .list-box .list .list-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 400px;
+        margin-left: 10px;
+    }
+
+    .list-box .list .list-content .list-date {
+        font-size: 15px;
+    }
+    
+    .list-box .list .list-content .list-title {
+        font-size: 25px;
+    }
+    
+    .list-box .list .list-content a {
+        width: 150px;
+        color: #F5F5F4;
+        font-size: 13px;
+        margin: 10% 0 0 23%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1180px){
+    .list-container{
+        margin-top: 10%;
+    }
+
+    .list-box {
+        position: relative;
+        min-width: 350px;
+    }
+
+    .list-box .list {
+        width: 650px;
+        box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        margin: 30px;
+    }
+
+    .list-box .list .list-imgBox {
+        position: relative;
+        width: 650px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 10px 2px;
+    }
+    
+    .list-box .list .list-imgBox img {
+        position: absolute;
+        margin: 0 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .list-box .list .list-content a {
+        color: #F5F5F4;
+        font-size: 13px;
+        margin: 0 0 0 58%;
+    }
+
+}

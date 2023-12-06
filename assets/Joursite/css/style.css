@@ -1,0 +1,431 @@
+
+/* ----- Hero Section Start ----- */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 45%;
+}
+
+.hero .image img {
+    position: absolute;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 80%;
+    transform: translate(-50%, -2%)
+}
+
+.banner {
+    background-color: #F5F5F4;
+    box-shadow: 0px -10px 50px 25px rgba(245, 245, 244, 1);
+    -webkit-box-shadow: 0px -10px 50px 25px rgba(245, 245, 244, 1);
+    -moz-box-shadow: 0px -10px 50px 25px rgba(245, 245, 244, 1);
+    position: absolute;
+    width: 80%;
+    height: 150px;
+    margin-top: 70%;
+}
+
+.banner-text p {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner-text p .brand {
+    font-size: 125%;
+}
+
+.banner-text p .span {
+    color: #F97316;
+}
+
+.banner-text p .title {
+    font-size: 200%;
+}
+
+.banner-text p .date {
+    font-size: 125%;
+    color: #F97316;
+}
+
+/*----- Hero Section End-----*/
+
+
+
+.label {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 45%;
+}
+
+.label a {
+    text-decoration: none;
+    color: #000;
+}
+
+.label span {
+    color: #F97316;
+}
+
+
+
+/*----- JourNews Section Start-----*/
+.containerNews {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+    padding: 30px 50px;
+}
+
+.cardNews {
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 550px;
+    height: 500px;
+    background: #F5F5F4;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+/* 
+.cardNews:hover {
+    height: 400px;
+} */
+
+.cardNews .img-box {
+    position: absolute;
+    width: 500px;
+    height: 220px;
+    top: 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+/* .cardNews:hover .img-box {
+    top: -50px;
+    scale: 0.9;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.cardNews .img-box img {
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardNews .content {
+    position: absolute;
+    width: 100%;
+    padding: 0 50px;
+    top: 240px;
+    height: 250px;
+    text-align: center;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.cardNews .content h2{
+    font-size: 24px;
+}
+
+.cardNews .content p{
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+
+/* .cardNews:hover .content {
+    top: 170px;
+    height: 250px;
+} */
+
+.cardNews .content a {
+    position: relative;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #F97316;
+    color: #F5F5F4;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.cardNews .content a:hover {
+    background-color: #F5F5F4;
+    color: #F97316;
+    box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/*----- JourNews Section End-----*/
+
+
+
+/*----- JourSay Section Start-----*/
+
+#JourSay.label {
+    margin-top: 1px;
+    padding: 50px 0 0 0;
+}
+
+.container{
+    max-width: 1300px;
+    width: 80%;
+    padding: 20px 20px 90px;
+    margin: 6% auto 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+}
+
+.cardSay{
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 200px;
+}
+
+.cardSay img{
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: -50px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cardSay-body{
+    padding: 20px;
+    width: 550px;
+}
+
+.cardSay-body .cardSay-title{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cardSay-body .cardSay-text{
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cardSay-body .btn{
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F97316;
+    color: #F5F5F4;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.4s ease;
+    border-radius: 15px;
+}
+
+.cardSay-body .btn:hover{
+    background-color: #EBE8E7;
+    color: #F97316;
+    font-weight: bold;
+}
+
+#pagination {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #pagination li {
+    display: inline;
+  }
+
+#pagination li a {
+    font-size: 1.3rem;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: #F97316;
+    background-color: #F5F5F4;
+    padding: 10px 10px;
+  }
+
+
+  #pagination li a.active {
+    background-color: #F97316;
+    color: #F5F5F4;
+  }
+
+  #pagination li a:hover:not(.active) {
+    background-color: #ddd;
+  } 
+
+/*----- JourSay Section End-----*/
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .hero .image img {
+        width: 90%;
+    }
+    .hero {
+        margin-top: 30%;
+    }
+
+    .banner {
+        margin-top: 105%;
+        width: 90%;
+        height: 100px;
+    }
+
+    .banner-text p .title {
+        font-size: 150%;
+    }
+
+    .banner-text p .brand,
+    .banner-text p .date {
+        font-size: 115%;
+    }
+
+    .label {
+        margin-top: 75%;
+        font-size: 35px;
+    }
+
+    #JourSay.label {
+        margin-top: 5%;
+    }
+
+    .cardNews{
+        height: 450px;
+        width: 300px;   
+    }
+
+    .content p{
+        display: none;
+    }
+
+    .cardNews .img-box {
+        top: 0;
+        width: 100%;
+    }
+
+    .cardNews .content{
+        margin-top: 230px;
+        padding: 10px;
+        top: 0;
+        height: 100px;
+    }
+
+    .cardNews .content a {
+        text-align: center;
+        display: block;
+        padding: 10px;
+    }
+    .container{
+        margin-top: 20%;
+        grid-template-columns: 1fr;
+        grid-row-gap: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+    .hero {
+        margin-top: 20%;
+    }
+    
+
+    .banner {
+        margin-top: 80%;
+        height: 150px;
+    }
+
+    /* .cardNews:hover .img-box{
+        scale: 0.85;
+    }
+     */
+
+    .cardNews{
+        height: 520px;
+    }
+    .cardNews .content h2{
+        font-size: 1.5rem;
+    }
+    
+    .cardNews .content p{
+        font-size: 1.2rem;
+    }
+    
+    /* .cardNews:hover .content {
+        top: 38%;
+        height: 400px;
+    }
+    
+    .cardNews .content a{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        top: 10%;
+    }
+
+    .cardNews .img-box{
+        width: 400px;
+    }
+
+    .cardNews:hover .content {
+        top: 160px;
+        height: 260px;
+    } */
+
+    .label {
+        margin-top: 55%;
+    }
+
+    #JourSay.label {
+        margin-top: 5%;
+    }
+    
+    .container{
+        grid-template-columns: 1fr;
+        grid-row-gap: 100px;
+    }
+
+}
